@@ -14,7 +14,7 @@ Input 为受控组件，它**总会显示 Vue 绑定值**。
 
 :::demo
 ```html
-<el-input v-model="input" placeholder="请输入内容"></el-input>
+<el-input v-model="input" placeholder="请输入内容" label="测试"></el-input>
 
 <script>
 export default {
